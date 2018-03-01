@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dave.controller.Controller">
+   <children>
+      <Button layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#onStartQuiz" text="Next" />
+      <TextArea fx:id="questionTextArea" editable="false" layoutX="52.0" layoutY="21.0" prefHeight="120.0" prefWidth="467.0"
+                style="-fx-font-family: Consolas; -fx-highlight-fill: #00ff00; -fx-highlight-text-fill: #000000; -fx-text-fill: #00ff00; ">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font></TextArea>
+      <RadioButton fx:id="anwerRB1" layoutX="71.0" layoutY="161.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="anwerRB2" layoutX="353.0" layoutY="160.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="anwerRB3" layoutX="71.0" layoutY="226.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="anwerRB4" layoutX="353.0" layoutY="226.0" mnemonicParsing="false" text="RadioButton" />
+   </children>
+</AnchorPane>
