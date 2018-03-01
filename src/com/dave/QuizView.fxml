@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dave.controller.Controller">
    <children>
-      <Button layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#onStartQuiz" text="Next" />
+      <Button layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#onNextQuestion" text="Next" />
       <TextArea fx:id="questionTextArea" editable="false" layoutX="52.0" layoutY="21.0" prefHeight="120.0" prefWidth="467.0"
                 style="-fx-font-family: Consolas; -fx-highlight-fill: #00ff00; -fx-highlight-text-fill: #000000; -fx-text-fill: #00ff00; ">
          <font>
